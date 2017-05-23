@@ -22,9 +22,7 @@ import {RoundProgressEase} from './round-progress.ease';
         fill-opacity="0.25"
         [attr.cx]="radius"
         [attr.cy]="radius"
-        [attr.r]="(radius - stroke / 2) + 8"
-        [style.stroke]="resolveColor(background)"
-        [style.stroke-width]="stroke"/>
+        [attr.r]="(radius - stroke / 2) + 8"/>
 
       <path
         #path
