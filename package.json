@@ -5,7 +5,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com:levipadre/angular-svg-round-progressbar.git"
+    "url": "git://github.com/crisbeto/angular-svg-round-progressbar.git"
   },
   "keywords": [
     "angular",
