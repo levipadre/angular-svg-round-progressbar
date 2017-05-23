@@ -530,7 +530,7 @@ System.register("round-progress.component", ["@angular/core", "round-progress.se
                 Object.defineProperty(RoundProgressComponent.prototype, "_diameter", {
                     /** Diameter of the circle. */
                     get: function () {
-                        return (this.radius * 2) - 15;
+                        return this.radius * 2;
                     },
                     enumerable: true,
                     configurable: true

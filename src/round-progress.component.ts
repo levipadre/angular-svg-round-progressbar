@@ -155,7 +155,7 @@ export class RoundProgressComponent implements OnChanges {
 
   /** Diameter of the circle. */
   get _diameter(): number {
-    return (this.radius * 2) - 15;
+    return this.radius * 2;
   }
 
   /** The CSS height of the wrapper element. */
