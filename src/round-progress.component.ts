@@ -18,7 +18,8 @@ import {RoundProgressEase} from './round-progress.ease';
   template: `
     <svg xmlns="http://www.w3.org/2000/svg" [attr.viewBox]="_viewBox">
       <circle
-        fill="none"
+        fill="#ffffff"
+        fill-opacity="0.25"
         [attr.cx]="radius"
         [attr.cy]="radius"
         [attr.r]="(radius - stroke / 2) + 8"
