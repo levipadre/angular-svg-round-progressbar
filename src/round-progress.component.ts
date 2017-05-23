@@ -21,7 +21,7 @@ import {RoundProgressEase} from './round-progress.ease';
         fill="none"
         [attr.cx]="radius"
         [attr.cy]="radius"
-        [attr.r]="(radius - stroke / 2) - 15"
+        [attr.r]="(radius - stroke / 2) + 8"
         [style.stroke]="resolveColor(background)"
         [style.stroke-width]="stroke"/>
 
