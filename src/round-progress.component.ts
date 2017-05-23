@@ -18,7 +18,7 @@ import {RoundProgressEase} from './round-progress.ease';
   template: `
     <svg xmlns="http://www.w3.org/2000/svg" [attr.viewBox]="_viewBox">
       <circle
-        fill="rgba(255,255,255,0.25)"
+        fill="none"
         [attr.cx]="radius"
         [attr.cy]="radius"
         [attr.r]="(radius - stroke / 2) + 8"
@@ -28,7 +28,7 @@ import {RoundProgressEase} from './round-progress.ease';
       <path
         #path
         fill="none"
-        [style.stroke-width]="15"
+        [style.stroke-width]="stroke"
         [style.stroke]="resolveColor(color)"
         [style.stroke-linecap]="rounded ? 'round' : ''"
         [attr.transform]="getPathTransform()"/>
